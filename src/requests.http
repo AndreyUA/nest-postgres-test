@@ -1,0 +1,17 @@
+### Get all existing users
+GET http://localhost:3000/user
+
+### Create new user
+POST http://localhost:3000/user
+content-type: application/json
+
+{
+  "firstName": "just a test first name",
+  "lastName": "just a test last name"
+}
+
+### Get user by ID
+GET http://localhost:3000/user/1
+
+### Remove user by ID
+DELETE http://localhost:3000/user/1
